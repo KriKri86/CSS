@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green {
+background: #e5ffe7;
+}
+
+.bg-red {
+background: #ffe5e5;
+} 
+.info {
+    margin-bottom: 20px;
+    display: flex;
+    padding-bottom: 10px;
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.list {
+    padding: 0px;
+    list-style: none;
+}
+.list li{
+    color: #86898f;
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    margin-bottom: 10px;
+}
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #86898f;
+}
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.contact h2 {
+text-align: center;
+}
+
+
+.form-grup label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+    margin-bottom: 5px ;
+    
+}
+
+
+.form-grup input,
+.form-grup textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 0px 10px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-grup {
+    width: 50%;
+    margin-right: 20px;
+
+}
+
+.row > .form-grup:last-child {
+    margin-right: 0;
+}
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+/* .avatar {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration: none;
+    /* text-transform: capitalize; */
+
+}
+.social {
+    background: #1b50ba;
+} */
+
+
